@@ -124,3 +124,33 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        .generate-password{
+            .length-input{
+                h4{
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+            }
+            .letters{
+                ul{
+                    margin-bottom: 20px;
+                }
+                input{
+                    width: 50%;
+                }
+                input:active{
+                    font-size: 20px;
+                    width: 60%;
+                }
+            }
+        }
+        .password-result{
+            img{
+                width: 15%;
+            }
+        }
+    }
+}
