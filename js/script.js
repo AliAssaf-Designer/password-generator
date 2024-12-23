@@ -28,9 +28,7 @@ for (let i = 0; i < letter_check.length; i++) {
         if (e.target.value == letters[i].title) {
             add_letters += letters[i].letter;
             for (let i = 0; i < add_letters.length; i++) {
-                // console.log(add_letters[i]);
             }
-            console.log(add_letters);
         }
     });
     
@@ -73,7 +71,6 @@ function random_Char(){
     };
     return char;
 }
-// console.log(random_Char());
 
 function random_password(length){
     let password = "";
