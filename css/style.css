@@ -48,7 +48,7 @@
             ul{
                 list-style-type: none;
                 margin-bottom: 15px;
-                li{
+                .char-type{
                     display: flex;
                     gap: 10px;
                     align-items: center;
@@ -148,7 +148,7 @@
             }
         }
         .password-result{
-            img{
+            .copy{
                 width: 15%;
             }
         }
