@@ -45,7 +45,7 @@
                 font-size: 16px;
                 margin-bottom: 10px;
             }
-            ul{
+            .letters-list{
                 list-style-type: none;
                 margin-bottom: 15px;
                 .char-type{
@@ -130,12 +130,12 @@
         .generate-password{
             .length-input{
                 h4{
-                    font-size: 13px;
+                    font-size: 12px;
                     margin-bottom: 15px;
                 }
             }
             .letters{
-                ul{
+                .letters-list{
                     margin-bottom: 20px;
                 }
                 .letter-check{
