@@ -138,10 +138,10 @@
                 ul{
                     margin-bottom: 20px;
                 }
-                input{
+                .letter-check{
                     width: 50%;
                 }
-                input:active{
+                .letter-check:active{
                     font-size: 20px;
                     width: 60%;
                 }
